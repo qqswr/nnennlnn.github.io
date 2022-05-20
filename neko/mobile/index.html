@@ -2,50 +2,68 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Neko | Официальный сайт</title>
+    <title>Neko</title>
     <meta property="og:title" content="Neko">
     <meta property="og:description" content="Официальный сайт">
-    <meta name="description" content="Neko Официальный сайт. Artur Destroyer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Neko">
-    <meta name="Copyright" content="Neko">
-    <link rel="shortcut icon" href="assets/favico/ico.png" type="image/png">
-    <link rel="stylesheet" href="assets/fonts/gsans/style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/index.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/text.js"></script>
-    <script src="assets/js/typed.min.js"></script>
+    <link rel="shortcut icon" href="../assets/favico/ico.png" type="image/png">
+    <script src="../assets/js/index.js"></script>
+    <link rel="stylesheet" href="../assets/fonts/gsans/style.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../assets/js/text.js"></script>
+    <script src="../assets/js/typed.min.js"></script>
     <meta name="theme-color" content="#000000">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-    
-<body class="center">
+
+<script>
+    var test = false
+    if (!test) {
+        function isMacintosh() {
+            return navigator.platform.indexOf('Mac') > -1
+        }
+
+        function isWindows() {
+            return navigator.platform.indexOf('Win') > -1
+        }
+
+        if (isMacintosh() || isWindows()) {
+            window.location.replace("../")
+        }
+    }
+</script>
+<div id="page-preloader">
+    <script type="text/javascript">
+        document.body.style.backgroundImage = "url('../assets/images/bg-m.jpg')";
+    </script>
+</div>
+
+<body class="center blur">
     <div class="loaderArea">
        <div class="loader"></div>
     </div>
 
-    <script type="text/javascript">
-        var test = false;
-        if (!test) {
-            
-        }
-        document.body.style.backgroundImage = "url('assets/images/background.gif')";
-    </script>
     <header class="center info">
         <div class="center pizdec">
-            <div class="avatar-container"><img src="assets/images/avatar.jpg" oncontextmenu="return false;" class="avatar">
+            <div class="avatar-container"><img src="../assets/images/avatar.jpg" oncontextmenu="return false;"
+                    class="avatar">
             </div>
             <h2><span>Neko</span></h2>
             <hr width="295">
-            <h1><span class="typed"></span><span class="typed-cursor">❚</span></h1>
-            <hr width="295">
+            <h2><span class="typed"></span><span class="typed-cursor">❚</span></h2>
+        </div>
+        <div class="center pizdec">
             <h2>Ссылки:</h2>
         </div>
+
         <div class="buttons">
             <a href="javascript://" class="link" onclick="location.href='https://t.me/neko_nn'">Profile TG</a>
         </div>
         <div class="buttons">
-            <a href="javascript://" class="link" onclick="location.href='https://github.com/nekoo1'">GitHub</a>
+            <a href="javascript://" class="link" onclick="location.href='https://github.com/nekoo1' ">GitHub</a>
         </div>
 
         <script>
@@ -56,5 +74,8 @@
             $preloader.delay(350).fadeOut('slow');
           });
         </script>
-    </body>
+
+    </header>
+</body>
+
 </html>

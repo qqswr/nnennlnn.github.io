@@ -1,6 +1,6 @@
 $(function () {
     $(".typed").typed({
-        strings: ["html", "css", "python", "coder",],
+        strings: ["html", "css", "Python", "coder",],
         typeSpeed: 30,
         backSpeed: 0,
         cursorChar: ['❚'],
