@@ -1,0 +1,55 @@
+.menu>li, .btn-text{
+    background-color: rgb(133, 30, 30);
+    margin-right: 7px;
+    color: white;
+}
+.btn-text:hover{
+    color: rgb(133, 30, 30);
+    background-color:white ;
+    border: 1px solid rgb(133, 30, 30);
+    box-shadow: 0 0 2px inset;
+}
+.big-photo{
+    height: 400px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+}
+.big-photo>h1{
+    text-shadow: 2px 5px 5px rgb(133, 30, 30);
+    font-size: 3.5rem;
+    color: white;
+}
+.main{
+    margin-top: 3rem;
+}
+.history{
+    background-color: rgb(160, 82, 82);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+}
+.history-text{
+    text-align: justify;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.why{
+    background-image: url(4.jpg);
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.why h2{
+    padding-top: 10rem;
+}
+.why li{
+    background-color: rgba(133, 30, 30, 0.644);
+    color: white;
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+}

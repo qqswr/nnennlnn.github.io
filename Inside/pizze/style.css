@@ -1,0 +1,239 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    border: 5px solid #ccd0d1;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    flex-basis: 100px;
+}
+
+.logo>img {
+    width: 100%;
+}
+
+.logo_text {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    background-color: #ccd0d1;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+aside>nav>ul {
+    padding: 0;
+}
+
+aside>nav>ul>li {
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(143, 155, 167);
+}
+
+aside>nav>ul>li:hover {
+    background-color: rgb(114, 128, 141);
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #ccd0d1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    flex-grow: 10;
+    flex-basis: 500px;
+    /* flex-shrink: 1; */
+}
+
+.text {
+    border-left: 3px solid gray;
+    margin: 25px;
+    padding: 5px;
+}
+
+.bold {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pizza {
+    width: 165px;
+    height: 128px;
+    margin: 15px;
+}
+
+.pizza>a:hover {
+    font-size: 120%;
+    text-shadow: 0 0 10px white;
+    text-decoration: underline;
+}
+
+.pizza>a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.pizza {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pz1 {
+    background-image: url(img/pizza1.jpg);
+}
+
+.pz2 {
+    background-image: url(img/pizza2.jpg);
+}
+
+.pz3 {
+    background-image: url(img/pizza3.jpg);
+}
+
+.pz4 {
+    background-image: url(img/pizza4.jpg);
+}
+
+.pz5 {
+    background-image: url(img/pizza5.jpg);
+}
+
+.pz6 {
+    background-image: url(img/pizza6.jpg);
+}
+
+.pz7 {
+    background-image: url(img/pizza7.jpg);
+}
+
+.pz8 {
+    background-image: url(img/pizza8.jpg);
+}
+
+.pz9 {
+    background-image: url(img/pizza9.jpg);
+}
+
+.dodatky_text {
+    margin: auto;
+    text-align: justify;
+}
+
+.dodatky {
+    background-image: url(img/1.png);
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+
+.olyvki,
+.cheese,
+.tomato,
+.other {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    padding: 30px;
+    margin: 20px;
+    background-color: gray;
+}
+
+.olyvki {
+    align-self: center;
+}
+
+.cheese {
+    align-self: flex-start;
+}
+
+.tomato {
+    align-self: flex-end;
+}
+
+.other {
+    align-self: center;
+}
+
+footer {
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+
+.icons {
+    margin-left: 20px;
+}
+
+.our_principles {
+    background-color: #e9eaeb;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 30px;
+    align-content: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.about>.text_2 {
+    margin: 0 50px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    align-self: center;
+}
+.about>.foto {
+    margin: 0 50px;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+@media screen and (max-width: 990px) {
+    .about .order {
+        order: 2;
+    }
+}
+
+.text_2>b {
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.text_2>h3 {
+    display: inline-block;
+}
+
+.foto>img {
+    width: 100%;
+}
