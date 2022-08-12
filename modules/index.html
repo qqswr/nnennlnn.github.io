@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <title>Modules</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to top, #212121 0%, #121212 100%);
+            font-family: Hubballi;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        h1,
+        h2 {
+            color: #e6dee9;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            color: #D1C8D5;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .link {
+            display: inline-block;
+            margin: 10px;
+            padding: 5px 10px;
+            transition: all .1s ease;
+            border-radius: 3px;
+        }
+
+        .link:hover {
+            background: rgba(150, 150, 150, .1);
+        }
+
+        .links_container {
+            width: 400px;
+            margin-left: calc(50vw - 200px);
+            text-align: center;
+        }
+
+        .tumbleweed_container {
+            width: 100vw;
+            height: 200px;
+            overflow: hidden;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        .tumbleweed {
+            background: url(https://siasky.net/nAEx7rEog4oX43EkFPW5ecOrd_sIlXDFBSSHM3ar3a6vMA);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+            position: absoulute;
+            bottom: 0;
+            left: 0;
+            animation: weed 20s infinite linear;
+        }
+
+        @keyframes weed {
+            from {
+                margin-left: -300px;
+                transform: rotate(0);
+                margin-top: 30px;
+            }
+
+            20% {
+                margin-top: 50px;
+            }
+
+            40% {
+                margin-top: 30px;
+            }
+
+            60% {
+                margin-top: 50px;
+            }
+
+            80% {
+                margin-top: 30px;
+            }
+
+            to {
+                margin-left: calc(100vw + 300px);
+                transform: rotate(1200deg);
+                margin-top: 50px;
+            }
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 80%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Modules</h1>
+        
+        <div class="links_container">
+
+            <div class="link">
+                <a target="_blank" href="https://nnennlnn.ml/modules/view/AutoWarn.py">AutoWarn</a>
+            </div>
+
+            <div class="link">
+                <a target="_blank" href="https://nnennlnn.ml/modules/view/homak.py">Homak</a>
+            </div>
+
+            <div class="link">
+                <a target="_blank" href="https://nnennlnn.ml/modules/view/spamall.py">Spamall</a>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class="tumbleweed_container">
+        <div class="tumbleweed"></div>
+    </div>
+</body>
+
+</html>
