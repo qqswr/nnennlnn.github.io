@@ -46,8 +46,8 @@ main {
 main > .intro {
 	color: aliceblue;
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+	font-size: 3em;
+	font-weight: 500;
 }
 
 main > .tagline {
